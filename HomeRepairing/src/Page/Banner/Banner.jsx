@@ -17,7 +17,6 @@ export default function Banner() {
 						</p>
 						<button>Contact us</button>
 					</div>
-					<h3>hello js</h3>
 				</div>
 			</div>
 		</div>
