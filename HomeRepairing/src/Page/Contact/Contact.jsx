@@ -1,6 +1,6 @@
 import React from "react";
 
-import email from "../../assets/images/email .png";
+import email from "../../assets/images/email.png";
 import whatsapp from "../../assets/images/whatsapp.png";
 import messanger from "../../assets/images/download (5).png";
 

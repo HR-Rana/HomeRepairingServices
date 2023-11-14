@@ -178,9 +178,10 @@ button {
     background-color: var(--mainColor);
 }
 
-.trust-and-professional-services .left-site img{
+.trust-and-professional-services .left-site img {
     height: 100%;
 }
+
 .trust-and-professional-services .left-site {
     width: 60%;
 }
@@ -193,30 +194,35 @@ button {
     justify-content: center;
     color: black;
 }
-.trust-and-professional-services h2{
+
+.trust-and-professional-services h2 {
     font-size: 42px;
     margin-bottom: 5px;
     text-transform: capitalize;
 }
-.trust-and-professional-services p{
+
+.trust-and-professional-services p {
     font-size: 20px;
     margin: 25px 0;
 }
+
 .trust-and-professional-services .right-site-content>span {
     width: 80%;
 
 }
-.trust-and-professional-services .correct-img{
+
+.trust-and-professional-services .correct-img {
     width: 100%;
     justify-content: space-between;
     margin: 25px 0;
 }
+
 .trust-and-professional-services .correct-img>div {
     width: 45%;
-   display: inline-flex;
-    margin: 15px 5px ;
+    display: inline-flex;
+    margin: 15px 5px;
     align-items: center;
-  
+
 }
 
 .trust-and-professional-services .correct-img li {
@@ -236,35 +242,43 @@ button {
 
 /* Hom repair services */
 
-.home-repair-service{
+.home-repair-service {
     margin: 75px 10px;
 }
+
 .home-repair-service h2 {
     font-size: 42px;
     font-weight: 600;
     text-align: center;
     margin: 30px 0;
 }
-.home-repair-service .flex-box{
+
+.home-repair-service .flex-box {
     display: block;
 }
-.home-repair-service .repair-card{
+
+.home-repair-service .repair-card {
     width: 30%;
     display: inline-block;
     padding: 15px 10px;
-    margin:25px 10px;
-    border-top:8px solid var(--mainColor);
+    margin: 25px 10px;
+    border-top: 8px solid var(--mainColor);
 }
-.home-repair-service .repair-card h3{
+
+.home-repair-service .repair-card h3 {
     margin: 15px 0;
     letter-spacing: 1px;
 }
-.home-repair-service .repair-card img{
+
+.home-repair-service .repair-card img {
     width: 20px;
 }
-.home-repair-service button{
+
+.home-repair-service button {
     background-color: transparent;
     width: 20%;
+    display: flex;
+    justify-content: center;
     padding: 15px;
     margin: 20px auto;
     border: 1px solid white !important;
@@ -274,8 +288,10 @@ button {
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
+
 }
-.home-repair-service button:hover{
+
+.home-repair-service button:hover {
     background-color: var(--mainColor) !important;
 }
 
@@ -346,16 +362,59 @@ button {
 
 /* send us a message section */
 
+.sendus-message {
+    margin: 75px 0;
+}
+
+.sendus-message h2 {
+    font-size: 42px;
+    text-align: center;
+    margin: 25px 0;
+    text-transform: capitalize;
+}
+
+.sendus-message .flex-box {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.sendus-message .content {
+    width: 45%;
+}
+
+.sendus-message .content h3 {
+    margin: 10px 0;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+.sendus-message .content p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.sendus-message .flex-box .content button {
+    color: white;
+    border: 1px solid white !important;
+    padding: 15px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.sendus-message .content button:hover {
+    background-color: var(--mainColor) !important;
+    color: black;
+}
 
 
 
 
 
-
-
-
-
-.home-repair-service button {
+.home-service button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -428,29 +487,121 @@ button {
 
 
 
-.professional-services {}
+
+/* professional service section */
+
+.professional-services {
+    margin: 100px 10px;
+
+}
+
+.professional-services .title {
+    margin: 65px auto;
+}
+
+.professional-services h2 {
+    font-size: 36px;
+    margin-bottom: -15px;
+}
+
+.professional-services .title p {
+    font-size: 20px;
+}
+
+.professional-services .card {
+    width: 30%;
+    background-color: white;
+    color: black;
+    padding: 25px 15px;
+    border-top: 8px solid var(--mainColor);
+}
+
+.professional-services .card h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.professional-services .card p {
+    margin: 20px 0px;
+}
+
+.professional-services .card .arrow {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
 
 .professional-services img {
     width: 35px;
     height: 35px;
-    padding: 5px;
+    padding: 8px;
+    display: flex;
+    cursor: pointer;
+    transform: translateX(-5px);
     background-color: var(--mainColor);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    display: flex;
-    justify-content: right;
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    -o-transform: translateX(-5px);
+    transition: .9s;
+    -webkit-transition: .9s;
+    -moz-transition: .9s;
+    -ms-transition: .9s;
+    -o-transition: .9s;
+}
+
+.professional-services img:hover {
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
 }
 
 
+
+
+
+
+/* meet our exper team section */
+
 .meet-exparts {
-    padding: 25px 0px;
+    padding: 25px 10px;
 }
 
 .meet-exparts h3 {
     font-size: 32px;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.meet-exparts ul {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.meet-exparts ul span {
+    font-size: 20px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.meet-exparts .button {
+    width: 80%;
+}
+
+.meet-exparts button {
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+
 }
 
 .meet-exparts .flex-box {
@@ -482,6 +633,13 @@ button {
 
 .meet-exparts .right-site {
     width: 65%;
+    height: 100%;
+}
+
+.meet-exparts .right-site img {
+    height: 100%;
+    display: flex;
+    object-fit: contain;
 }
 
 .meet-exparts button {
@@ -492,7 +650,13 @@ button {
 
 
 
-.contact {}
+
+
+
+/* contact section */
+.contact {
+    margin: 40px 10px;
+}
 
 .contact .content {
     display: flex;
@@ -505,6 +669,61 @@ button {
     height: 50px;
 }
 
+.contact img {
+    background-color: rgb(174, 174, 174);
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.contact .flex-box {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact .contact {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.contact .content h4 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.contact .content input {
+    min-width: 70%;
+    padding: 20px;
+    outline: none;
+    margin: 10px 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.contact .content button {
+    min-width: 70%;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    background-color: var(--mainColor) !important;
+    position: relative !important;
+    bottom: 0 !important;
+}
+
+.contact .content button:hover {
+    background-color: var(--mainColor) !important;
+    color: black;
+    ;
+}
+
+
+
+
+/* footer */
 .footer {
     color: rgb(228, 228, 228);
     padding: 25px 0;
