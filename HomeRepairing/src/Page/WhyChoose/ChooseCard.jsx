@@ -38,7 +38,7 @@ export default function ChooseCard() {
 
 	return (
 		<div className="why-choose-section">
-			<div>
+			<div className="title">
 				<h2>Why Choose Our Company For Your Home Repairs?</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

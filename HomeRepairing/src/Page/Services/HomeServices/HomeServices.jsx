@@ -73,18 +73,17 @@ export default function HomeServices() {
 			<h2>Home Repair Services</h2>
 			<div className="flex-box">
 				{homeRepair.map((item) => {
-					return <div className="repair-card" key={item.id}>
-            <img src={item.img} alt="" />
-            <br />
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-          </div>;
+					return (
+						<div className="repair-card" key={item.id}>
+							<img src={item.img} alt="" />
+							<br />
+							<h3>{item.title}</h3>
+							<p>{item.description}</p>
+						</div>
+					);
 				})}
 			</div>
-
-      <button>
-        learn more
-      </button>
+			<button>learn more</button>
 		</div>
 	);
 }

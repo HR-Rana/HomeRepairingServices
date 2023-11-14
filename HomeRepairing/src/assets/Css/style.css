@@ -45,7 +45,7 @@ button {
     -moz-transition: .6s;
     -ms-transition: .6s;
     -o-transition: .6s;
-    height:680px;
+    height: 680px;
     overflow: hidden;
 }
 
@@ -54,9 +54,6 @@ button {
     height: 100%;
     margin-bottom: -7px;
 }
-
-.banner-area .left-site img {}
-
 
 .banner-area .right-site {
     width: 50%;
@@ -88,10 +85,144 @@ button {
 }
 
 
+/* why choose our compnay section */
+.why-choose-section {
+    margin: 25px 0;
+    padding: 25px 10px;
+}
 
+.title {
+    width: 60%;
+    margin: auto auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.why-choose-section .title h2 {
+    font-size: 42px;
+}
+
+.why-choose-section .title p {
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.flex-box {
+    justify-content: space-between;
+}
+
+.why-choose-section .choose-card {
+    width: 23.5%;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: black;
+}
+
+.why-choose-section .header {
+    display: flex;
+    padding: 15px;
+}
+
+.why-choose-section .choose-card .header img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border: 5px solid var(--mainColor);
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.why-choose-section .choose-card img:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+.why-choose-section .choose-card .body {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.why-choose-section .choose-card .body h2 {
+    font-size: 22px;
+}
+
+.why-choose-section .choose-card .body p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+
+
+/* trust and reliable section  */
 
 .trust-and-professional-services {
     background-color: var(--mainColor);
+}
+
+.trust-and-professional-services .left-site img{
+    height: 100%;
+}
+.trust-and-professional-services .left-site {
+    width: 60%;
+}
+
+.trust-and-professional-services .right-site-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.trust-and-professional-services h2{
+    font-size: 42px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.trust-and-professional-services p{
+    font-size: 20px;
+    margin: 25px 0;
+}
+.trust-and-professional-services .right-site-content>span {
+    width: 80%;
+
+}
+.trust-and-professional-services .correct-img{
+    width: 100%;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+.trust-and-professional-services .correct-img>div {
+    width: 45%;
+   display: inline-flex;
+    margin: 15px 5px ;
+    align-items: center;
+  
+}
+
+.trust-and-professional-services .correct-img li {
+    list-style: none;
+    margin-left: 10px;
+    font-weight: 500;
 }
 
 .correct-img img {
@@ -100,16 +231,63 @@ button {
     object-fit: contain;
 }
 
-.home-repair-service button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+
+/* Hom repair services */
+
+.home-repair-service{
+    margin: 75px 10px;
+}
+.home-repair-service h2 {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0;
+}
+.home-repair-service .flex-box{
+    display: block;
+}
+.home-repair-service .repair-card{
+    width: 30%;
+    display: inline-block;
+    padding: 15px 10px;
+    margin:25px 10px;
+    border-top:8px solid var(--mainColor);
+}
+.home-repair-service .repair-card h3{
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+.home-repair-service .repair-card img{
+    width: 20px;
+}
+.home-repair-service button{
+    background-color: transparent;
+    width: 20%;
+    padding: 15px;
+    margin: 20px auto;
+    border: 1px solid white !important;
+    color: white;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.home-repair-service button:hover{
+    background-color: var(--mainColor) !important;
 }
 
 
 
 
 
+
+
+
+
+/* Our services section */
 .our-services {
     background-image: url('../../assets/images/t4.png');
     background-repeat: no-repeat;
@@ -164,25 +342,42 @@ button {
 }
 
 
-.home-repair-service {
+
+
+/* send us a message section */
+
+
+
+
+
+
+
+
+
+
+.home-repair-service button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home-service {
     background-color: var(--mainColor);
     padding: 40px 10px;
     overflow: hidden;
 }
 
-.home-repair-service h2 {
-    font-size: 34px;
-    font-weight: 600;
-}
 
-.home-repair-service .flex-box {
+
+.home-service .flex-box {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.home-repair-service .left {
+.home-service .left {
     width: 45%;
     margin: 0 auto;
     justify-content: center;
@@ -190,19 +385,19 @@ button {
 
 }
 
-.home-repair-service p {
+.home-service p {
     margin: 15px 0;
     font-size: 20px;
     letter-spacing: .5px;
     line-height: 35px;
 }
 
-.home-repair-service .rightimg {
+.home-service .rightimg {
     width: 45%;
     padding: 0 10px;
 }
 
-.home-repair-service .rightimg img {
+.home-service .rightimg img {
     width: 100%;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -211,7 +406,7 @@ button {
     -o-transform: scale(1.2);
 }
 
-.home-repair-service button {
+.home-service button {
     width: 40%;
     padding: 15px;
     color: black;
@@ -224,7 +419,7 @@ button {
     -o-transition: .4s;
 }
 
-.home-repair-service button:hover {
+.home-service button:hover {
     width: 40%;
     padding: 15px;
     background-color: black;

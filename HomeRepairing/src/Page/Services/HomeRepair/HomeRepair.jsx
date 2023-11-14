@@ -3,7 +3,7 @@ import img from '../../../assets/images/77.jpg'
 
 export default function HomeRepair() {
 	return (
-		<div className="home-repair-service">
+		<div className="home-service">
 			<div className="flex-box">
 				<div className="left">
 					<h2>Home Repair Services For the Inside</h2>
