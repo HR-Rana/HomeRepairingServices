@@ -16,3 +16,45 @@
     background-position: center;
     color: black;
 }
+
+
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+.trust-and-professional-services{
+    background-color: rgb(255, 204, 0);
+}
+.correct-img img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.home-repair-service button{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.our-services{
+    margin: 20px 0;
+}
+.our-services img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(255, 204, 0);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
