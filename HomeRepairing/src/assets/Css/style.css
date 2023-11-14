@@ -1,0 +1,18 @@
+
+
+#root{
+    background-color: black;
+    color: white;
+}
+
+.flex-box{
+    display: flex;
+}
+
+.banner-area{
+    background-image: url('../images/5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
