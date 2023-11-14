@@ -772,7 +772,7 @@ button {
         padding: 0;
 
     }
-    .flex-box {
+    .why-choose-section .flex-box {
         display: block;
     }
     .why-choose-section .choose-card {
@@ -782,6 +782,10 @@ button {
         margin: 10px;
         object-fit: contain;
     }
+    .why-choose-section button{
+        padding: 10px;
+    }
+    
     .trust-and-professional-services .flex-box {
         display: flex;
         flex-direction: column-reverse;
@@ -846,7 +850,12 @@ button {
         width: 95%;
         margin: 0 auto;
     }
-
+    .contact .content button{
+        padding: 10px;
+    }
+    .contact .content input{
+        padding: 10px;
+    }
 }
 
 
