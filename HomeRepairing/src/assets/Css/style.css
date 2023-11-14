@@ -772,9 +772,11 @@ button {
         padding: 0;
 
     }
+
     .why-choose-section .flex-box {
         display: block;
     }
+
     .why-choose-section .choose-card {
         width: 46%;
         height: 100%;
@@ -782,52 +784,63 @@ button {
         margin: 10px;
         object-fit: contain;
     }
-    .why-choose-section button{
+
+    .why-choose-section button {
         padding: 10px;
     }
-    
+
     .trust-and-professional-services .flex-box {
         display: flex;
         flex-direction: column-reverse;
         overflow: hidden;
     }
+
     .trust-and-professional-services .left-site {
         width: 80%;
         margin: 0 auto;
         margin-bottom: -15px;
 
     }
+
     .trust-and-professional-services .right-site-content {
         width: 90%;
         margin: 0 auto;
         margin-top: 45px;
     }
+
     .our-services .flex-box {
         display: block;
     }
+
     .our-services .service-card {
         width: 46%;
         display: inline-block;
         margin: 15px;
     }
+
     .home-service .flex-box {
         display: block;
     }
+
     .home-service .left {
         width: 90%;
         margin: 0 auto;
     }
+
     .home-service h2 {
         font-size: 30px;
     }
+
     .home-service button {
         width: 30%;
     }
+
     .home-service .rightimg {
         width: 90%;
         padding: 0 10px;
         margin: 0 auto;
     }
+
     .home-service .rightimg img {
         width: 100%;
         margin-bottom: -50px;
@@ -837,23 +850,28 @@ button {
         -ms-transform: scale(1.0);
         -o-transform: scale(1.0);
     }
+
     .meet-exparts .flex-box {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .meet-exparts .left-site {
         width: 95%;
         margin: 20px auto;
         padding: 15px 10px;
     }
+
     .meet-exparts .right-site {
         width: 95%;
         margin: 0 auto;
     }
-    .contact .content button{
+
+    .contact .content button {
         padding: 10px;
     }
-    .contact .content input{
+
+    .contact .content input {
         padding: 10px;
     }
 }
@@ -1039,5 +1057,17 @@ button {
         display: flex;
         margin: 50px auto;
 
+    }
+
+    .meet-exparts .left-site {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .meet-exparts ul {
+        width: 75%;
+    }
+    .meet-exparts button{
+        width: 80%;
     }
 }
