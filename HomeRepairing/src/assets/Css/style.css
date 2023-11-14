@@ -1,25 +1,27 @@
-
-
-#root{
+#root {
     background-color: black;
     color: white;
 }
 
-.flex-box{
+.main-app {}
+
+
+.flex-box {
     display: flex;
 }
 
-.banner-area{
+.banner-area {
     background-image: url('../images/5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: black;
+    padding: 0px 10px;
 }
 
 
 
-img{
+img {
     width: 100%;
 }
 
@@ -28,25 +30,62 @@ img{
 
 
 
-.trust-and-professional-services{
+.trust-and-professional-services {
     background-color: rgb(255, 204, 0);
 }
-.correct-img img{
+
+.correct-img img {
     width: 20px;
     height: 20px;
     object-fit: contain;
 }
 
-.home-repair-service button{
+.home-repair-service button {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.our-services{
-    margin: 20px 0;
+
+
+
+
+.our-services {
+    background-image: url('../../assets/images/t4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10px;
 }
-.our-services img{
+
+.our-services h2 {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+.our-services .flex-box {
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.our-services .service-card {
+    width: 23.5%;
+    background-color: whitesmoke;
+    padding: 55px 15px;
+    color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.our-services .flex-box p {
+    margin: 25px 0;
+}
+
+.our-services img {
     width: 70px;
     height: 70px;
     padding: 10px;
@@ -57,4 +96,88 @@ img{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.our-services a {
+    border-bottom: 2px solid rgb(255, 204, 0);
+}
+
+
+.home-repair-service {
+    background-color: rgb(255, 204, 0);
+    padding: 40px 10px;
+    overflow: hidden;
+}
+.home-repair-service h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.home-repair-service .flex-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-repair-service .left{
+    width:45%;
+    margin: 0 auto;
+    justify-content: center;
+    color: black;
+    
+}
+.home-repair-service p{
+    margin: 15px 0;
+    font-size: 20px;
+    letter-spacing: .5px;
+    line-height: 35px;
+}
+.home-repair-service .rightimg{
+    width: 45%;
+    padding:0 10px;
+}
+.home-repair-service .rightimg img{
+    width: 100%;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.home-repair-service button{
+    width: 40%;
+    padding: 15px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.home-repair-service button:hover{
+    width: 40%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.professional-services{}
+.professional-services img{
+    width: 35px;
+    height:35px;
+    padding: 5px;
+    background-color: rgb(255, 204, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: right;
 }
